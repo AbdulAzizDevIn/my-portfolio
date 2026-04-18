@@ -68,7 +68,7 @@ export const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
-    image: "/images/p1.jpg",
+    image: "/images/LMS-project.png",
     techStack: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
     demoUrl: "https://example.com",
     githubUrl: "https://github.com",
@@ -77,7 +77,7 @@ export const projects = [
     title: "Task Management App",
     description:
       "Collaborative project management tool with real-time updates, Kanban boards, and team analytics.",
-    image: "/images/p2.jpg",
+    image: "/images/LMS-project.png",
     techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
     demoUrl: "https://example.com",
     githubUrl: "https://github.com",
@@ -86,7 +86,7 @@ export const projects = [
     title: "AI Content Generator",
     description:
       "GPT-powered content creation platform for marketers with templates and workflow automation.",
-    image: "/images/p3.jpg",
+    image: "/images/LMS-project.png",
     techStack: ["React", "Python", "OpenAI", "FastAPI"],
     demoUrl: "https://example.com",
     githubUrl: "https://github.com",
@@ -95,7 +95,7 @@ export const projects = [
     title: "Real Estate Platform",
     description:
       "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
-    image: "/images/p4.jpg",
+    image: "/images/LMS-project.png",
     techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
     demoUrl: "https://example.com",
     githubUrl: "https://github.com",
@@ -104,7 +104,7 @@ export const projects = [
     title: "Fitness Tracker",
     description:
       "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
-    image: "/images/p5.jpg",
+    image: "/images/LMS-project.png",
     techStack: ["React Native", "Firebase", "Node.js", "Charts"],
     demoUrl: "https://example.com",
     githubUrl: "https://github.com",
@@ -113,45 +113,49 @@ export const projects = [
     title: "Learning Management System",
     description:
       "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
-    image: "/images/p6.jpg",
+    image: "/images/LMS-project.png",
     techStack: ["Next.js", "Prisma", "AWS S3", "Stripe"],
     demoUrl: "https://example.com",
     githubUrl: "https://github.com",
   },
 ];
 
+
 export const skillCategories = [
   {
     title: "Frontend",
     skills: [
-      { name: "React", icon: Code2 },
-      { name: "Next.js", icon: Globe },
+      { name: "React.js", icon: Code2 },
+      { name: "JavaScript", icon: Terminal },
       { name: "TypeScript", icon: Terminal },
+      { name: "Next.js", icon: Globe },
       { name: "Tailwind CSS", icon: Palette },
-      { name: "React Native", icon: Smartphone },
-      { name: "Vue.js", icon: Layout },
+      { name: "Material UI", icon: Layout },
+      { name: "HTML", icon: Globe },
+      { name: "CSS", icon: Palette },
     ],
   },
   {
     title: "Backend",
     skills: [
       { name: "Node.js", icon: Server },
-      { name: "Express", icon: Layers },
+      { name: "Express.js", icon: Layers },
       { name: "MongoDB", icon: Database },
-      { name: "PostgreSQL", icon: Database },
-      { name: "GraphQL", icon: Cpu },
+      { name: "JWT", icon: Cpu },
       { name: "REST APIs", icon: Cloud },
+      { name: "Bcrypt.js", icon: Cpu },
     ],
   },
   {
     title: "Tools & Others",
     skills: [
       { name: "Git", icon: GitBranch },
-      { name: "Docker", icon: Server },
-      { name: "AWS", icon: Cloud },
-      { name: "Linux", icon: Terminal },
-      { name: "Figma", icon: Palette },
-      { name: "CI/CD", icon: Cpu },
+      { name: "GitHub", icon: GitBranch },
+      { name: "Firebase", icon: Cloud },
+      { name: "Postman", icon: Cpu },
+      { name: "Redux / RTK", icon: Layers },
+      { name: "VS Code", icon: Terminal },
+      { name: "Shadcn UI", icon: Layout },
     ],
   },
 ];
