@@ -65,58 +65,31 @@ export const footerSocialLinks = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description:
-      "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
-    image: "/images/LMS-project.png",
-    techStack: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "Collaborative project management tool with real-time updates, Kanban boards, and team analytics.",
-    image: "/images/LMS-project.png",
-    techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "AI Content Generator",
-    description:
-      "GPT-powered content creation platform for marketers with templates and workflow automation.",
-    image: "/images/LMS-project.png",
-    techStack: ["React", "Python", "OpenAI", "FastAPI"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Real Estate Platform",
-    description:
-      "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
-    image: "/images/LMS-project.png",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Fitness Tracker",
-    description:
-      "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
-    image: "/images/LMS-project.png",
-    techStack: ["React Native", "Firebase", "Node.js", "Charts"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
     title: "Learning Management System",
     description:
-      "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
+      "Built a full-stack Learning Management System using React.js, Node.js, Express, and MongoDB. Implemented JWT authentication, bcrypt password encryption, and Razorpay payment integration. Optimized API calls using RTK Query for better performance and user experience.",
     image: "/images/LMS-project.png",
-    techStack: ["Next.js", "Prisma", "AWS S3", "Stripe"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Redux"],
+    demoUrl: "https://lms-ovvc.onrender.com/",
+    githubUrl: "https://github.com/AbdulAzizDevIn/LMS",
+  },
+  {
+    title: "E-Commerce Platform (Myntra Clone)",
+    description:
+      "Developed a full-stack e-commerce application with product search, filtering, and sorting. Integrated Razorpay for secure payments and built custom authentication using Node.js and Express. Supports 200+ products with improved product discovery.",
+    image: "/images/LMS-project.png",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    demoUrl: "https://myntra-clone-aziz.vercel.app",
+    githubUrl: "https://github.com/AbdulAzizDevIn/Myntra-Clone",
+  },
+  {
+    title: "Stock Images Platform",
+    description:
+      "Created an image search platform using React and Firebase with advanced filtering and multi-resolution downloads. Designed a responsive UI for mobile and desktop, improving usability and user engagement.",
+    image: "/images/stock-image.png",
+    techStack: ["React.js", "Firebase", "JavaScript", "CSS"],
+    demoUrl: "https://stock-image-lyart.vercel.app/",
+    githubUrl: "https://github.com/AbdulAzizDevIn/stock-image",
   },
 ];
 
@@ -156,6 +129,25 @@ export const skillCategories = [
       { name: "Redux / RTK", icon: Layers },
       { name: "VS Code", icon: Terminal },
       { name: "Shadcn UI", icon: Layout },
+    ],
+  },
+];
+
+export const experiences = [
+  {
+    type: "education",
+    title: "Master of Computer Applications (MCA)",
+    company: "Indira Gandhi National Open University",
+    period: "2024 - 2026",
+    description:
+      "Studying core computer science subjects including data structures, algorithms, software engineering, database management systems, and computer networks. Alongside academics, building real-world web applications using modern technologies.",
+    technologies: [
+      "Data Structures",
+      "Algorithms",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks",
+      "Software Engineering",
     ],
   },
 ];
