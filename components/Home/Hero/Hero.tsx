@@ -72,7 +72,7 @@ const Hero = () => {
             </a>
           </Button>
           <Button asChild className="px-5 py-5 w-fit mx-auto sm:mx-0">
-            <a href="https://www.overleaf.com/download/project/672b9a0b8d407286678e1153/build/19dabf7359d-d2ec352f7657f42e/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-c3d-c-f-2264&enable_pdf_caching=true&popupDownload=true&editorId=7bc0a88e-c70f-48e0-9236-0595b35e70a4">
+            <a href="https://drive.usercontent.google.com/uc?id=1n7H_xeyUYQ1muUo61IsF66jlqlT5bse-&export=download">
               <Download className="w-5 h-5 mr-3" />
               Download CV
             </a>

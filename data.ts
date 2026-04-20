@@ -77,7 +77,7 @@ export const projects = [
     title: "E-Commerce Platform (Myntra Clone)",
     description:
       "Developed a full-stack e-commerce application with product search, filtering, and sorting. Integrated Razorpay for secure payments and built custom authentication using Node.js and Express. Supports 200+ products with improved product discovery.",
-    image: "/images/LMS-project.png",
+    image: "/images/myntra-image.png",
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
     demoUrl: "https://myntra-clone-aziz.vercel.app",
     githubUrl: "https://github.com/AbdulAzizDevIn/Myntra-Clone",
