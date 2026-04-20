@@ -13,7 +13,11 @@ const About = () => {
       />
       <div className="grid w-[80%] mx-auto lg:grid-cols-2 gap-12 items-center">
         {/* Image */}
-        <div className="relative">
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          className="relative"
+        >
           <div className="aspect-square rounded-2xl overflow-hidden p-2">
             <Image
               src={"/images/user.png"}
@@ -25,7 +29,12 @@ const About = () => {
           </div>
         </div>
         {/*Content */}
-        <div className="space-y-6">
+        <div
+          data-aos="fade-left"
+          data-aos-delay="150"
+          data-aos-anchor-placement="top-center"
+          className="space-y-6"
+        >
           <h3 className="text-2xl font-semibold">
             A passionate developer who loves to create
           </h3>

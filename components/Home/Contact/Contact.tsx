@@ -16,7 +16,11 @@ const Contact = () => {
       <div className="w-[80%] mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* contact info */}
-          <div>
+          <div
+            data-aos="fade-right"
+            data-aos-delay="0"
+            data-aos-anchor-placement="top-center"
+          >
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4">Let&apos;s Talk</h3>
@@ -68,64 +72,73 @@ const Contact = () => {
             </div>
           </div>
           {/* contact form  */}
-          <form className="bg-white dark:bg-gray-800 rounded-2xl p-8 space-y-6">
-            <div className="grid sm:grid-cols-2 gap-4">
+          <div
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-anchor-placement="top-center"
+          >
+            <form className="bg-white dark:bg-gray-800 rounded-2xl p-8 space-y-6">
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <label htmlFor="name" className="text-sm font-medium ">
+                    Name
+                  </label>
+                  <Input
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                    className="bg-gray-100 "
+                  />
+                </div>
+                <div className="space-y-2">
+                  <label htmlFor="email" className="text-sm font-medium ">
+                    Email
+                  </label>
+                  <Input
+                    id="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    required
+                    className="bg-gray-100 "
+                  />
+                </div>
+              </div>
               <div className="space-y-2">
-                <label htmlFor="name" className="text-sm font-medium ">
-                  Name
+                <label htmlFor="subject" className="text-sm font-medium">
+                  Subject
                 </label>
                 <Input
-                
-                  id="name"
-                  name="name"
-                  placeholder="Your Name"
+                  id="subject"
+                  name="subject"
+                  placeholder="Project Inquiry"
                   required
-                  className="bg-gray-100 "
+                  className="bg-gray-100"
                 />
               </div>
               <div className="space-y-2">
-                <label htmlFor="email" className="text-sm font-medium ">
-                  Email
+                <label htmlFor="message" className="text-sm font-medium">
+                  Message
                 </label>
-                <Input
-                  id="email"
-                  name="email"
-                  placeholder="your@email.com"
+                <Textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell me about your project... "
+                  rows={5}
                   required
-                  className="bg-gray-100 "
+                  className="bg-gray-100 h-40"
                 />
               </div>
-            </div>
-            <div className="space-y-2">
-              <label htmlFor="subject" className="text-sm font-medium">
-                Subject
-              </label>
-              <Input
-                id="subject"
-                name="subject"
-                placeholder="Project Inquiry"
-                required
-                className="bg-gray-100"
-              />
-            </div>
-            <div className="space-y-2">
-              <label htmlFor="message" className="text-sm font-medium">
-                Message
-              </label>
-              <Textarea
-                id="message"
-                name="message"
-                placeholder="Tell me about your project... "
-                rows={5}
-                required
-                className="bg-gray-100 h-40"
-              />
-            </div>
-            <Button type="submit" size={"lg"} className="w-full cursor-pointer">
-              <Send className="w-4 h-4 mr-2" />
-              Send Message
-            </Button>
-          </form>
+              <Button
+                type="submit"
+                size={"lg"}
+                className="w-full cursor-pointer"
+              >
+                <Send className="w-4 h-4 mr-2" />
+                Send Message
+              </Button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
