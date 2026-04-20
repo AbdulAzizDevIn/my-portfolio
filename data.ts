@@ -45,7 +45,7 @@ export const contactInfo = [
     icon: MapPin,
     label: "Location",
     value: "Murshidabad, WB",
-    href: "#",
+    href: "https://www.google.com/maps/place/Murshidabad,+West+Bengal/@24.2898741,87.6218193,9z/data=!3m1!4b1!4m6!3m5!1s0x39f97dd3a14e8043:0x701509a66edee7ed!8m2!3d24.2290007!4d88.2461183!16s%2Fm%2F026109x?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D",
   },
 ];
 

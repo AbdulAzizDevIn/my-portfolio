@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="py-16 bg-gray-100 dark:bg-gray-900">
+    <div id="about" className="scroll-mt-24 py-16 bg-gray-100 dark:bg-gray-900">
       {/* Section heading */}
       <SectionHeading
         title_1="About"

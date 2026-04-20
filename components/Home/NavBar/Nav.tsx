@@ -6,12 +6,11 @@ import { Download, MenuIcon } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
+type Props = {
+  openNav: () => void;
+};
 
-type Props={
-openNav:()=> void;
-}
-
-const Nav = ({openNav}:Props) => {
+const Nav = ({ openNav }: Props) => {
   const [navBg, setNavBg] = useState(false);
 
   useEffect(() => {
@@ -48,8 +47,8 @@ const Nav = ({openNav}:Props) => {
         <div className="flex items-center space-x-4">
           {/* CV Button */}
           <a
-            href="#"
-            className="box-border relative z-20 inline-flex items-center justify-center w-auto px-6 sm:px-8 py-3 overflow-hidden font-bold text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none"
+            href="https://www.overleaf.com/download/project/672b9a0b8d407286678e1153/build/19dabf7359d-d2ec352f7657f42e/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-c3d-c-f-2264&enable_pdf_caching=true&popupDownload=true&editorId=7bc0a88e-c70f-48e0-9236-0595b35e70a4"
+            className="hidden sm:inline-flex box-border relative z-20  items-center justify-center w-auto px-6 sm:px-8 py-3 overflow-hidden font-bold text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none"
           >
             <span className="relative z-20 flex items-center space-x-2 text-sm">
               <Download className="w-4 h-4" />
@@ -59,7 +58,10 @@ const Nav = ({openNav}:Props) => {
           {/* Theme Toggler */}
           <ThemeToggler />
           {/* Burger Menu */}
-          <MenuIcon onClick={openNav} className="w-8 h-8 cursor-pointer text-black dark:text-white lg:hidden" />
+          <MenuIcon
+            onClick={openNav}
+            className="w-8 h-8 cursor-pointer text-black dark:text-white lg:hidden"
+          />
         </div>
       </div>
     </div>

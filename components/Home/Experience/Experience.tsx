@@ -4,7 +4,7 @@ import { Briefcase, GraduationCap } from "lucide-react";
 
 const Experience = () => {
   return (
-    <div className="py-16 bg-gray-100 dark:bg-gray-950">
+    <div id="experience" className="scroll-mt-24 py-16 bg-gray-100 dark:bg-gray-950">
       <SectionHeading
         title_1="Experience &"
         title_2="Education"
