@@ -18,7 +18,13 @@ import {
   Smartphone,
   Terminal,
 } from "lucide-react";
-import { FaGithub, FaLinkedinIn, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa6";
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaLinkedin,
+  FaTwitter,
+  FaWhatsapp,
+} from "react-icons/fa6";
 
 export const highlights = [
   { icon: MapPin, text: "Based in Murshidabad, WB" },
@@ -26,7 +32,6 @@ export const highlights = [
   { icon: GraduationCap, text: "MCA (Computer Science), 2026" },
   { icon: Coffee, text: "Powered by coffee & curiosity" },
 ];
-
 
 export const contactInfo = [
   {
@@ -50,20 +55,56 @@ export const contactInfo = [
 ];
 
 export const socialLinks = [
-  { icon: FaGithub, href: "https://github.com/abdulazizdevin", label: "GitHub" },
-  { icon: FaLinkedinIn, href: "https://linkedin.com/in/abdulazizdev", label: "LinkedIn" },
+  {
+    icon: FaGithub,
+    href: "https://github.com/abdulazizdevin",
+    label: "GitHub",
+  },
+  {
+    icon: FaLinkedinIn,
+    href: "https://linkedin.com/in/abdulazizdev",
+    label: "LinkedIn",
+  },
   { icon: FaTwitter, href: "https://x.com/AbdulAzizDevIn", label: "Twitter" },
 ];
 
 export const footerSocialLinks = [
-  { icon: FaGithub, href: "https://github.com/abdulazizdevin", label: "GitHub" },
-  { icon: FaLinkedin, href: "https://linkedin.com/in/abdulazizdev", label: "LinkedIn" },
+  {
+    icon: FaGithub,
+    href: "https://github.com/abdulazizdevin",
+    label: "GitHub",
+  },
+  {
+    icon: FaLinkedin,
+    href: "https://linkedin.com/in/abdulazizdev",
+    label: "LinkedIn",
+  },
   { icon: FaTwitter, href: "https://x.com/AbdulAzizDevIn", label: "Twitter" },
   { icon: Mail, href: "mailto:abdulaziz742141@gmail.com", label: "Email" },
-  { icon: FaWhatsapp, href: "https://api.whatsapp.com/send/?phone=%2B916296055723&text&type=phone_number&app_absent=0", label: "Whatsapp" },
+  {
+    icon: FaWhatsapp,
+    href: "https://api.whatsapp.com/send/?phone=%2B916296055723&text&type=phone_number&app_absent=0",
+    label: "Whatsapp",
+  },
 ];
 
 export const projects = [
+  {
+    title: "Job Tracker",
+    description:
+      "Built a Kanban-style job application tracker using Next.js and TypeScript, with stages for Wishlist, Applied, Interviewing, Offer, and Rejected. Implemented Better Auth, user ownership checks, MongoDB with Mongoose, and Server Actions for data mutations. Debugged a production-only database connection issue on Vercel and resolved a strict TypeScript build error.",
+    image: "/images/job-tracker.png",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Mongoose",
+      "Better Auth",
+      "Tailwind CSS",
+    ],
+    demoUrl: "https://job-tracker-aziz.vercel.app/",
+    githubUrl: "https://github.com/AbdulAzizDevIn/Job-Tracker",
+  },
   {
     title: "Learning Management System",
     description:
@@ -76,7 +117,7 @@ export const projects = [
   {
     title: "E-Commerce Platform (Myntra Clone)",
     description:
-      "Developed a full-stack e-commerce application with product search, filtering, and sorting. Integrated Razorpay for secure payments and built custom authentication using Node.js and Express. Supports 200+ products with improved product discovery.",
+      "Built a full-stack e-commerce platform with React.js, Node.js, Express.js, and MongoDB. Implemented product search, filtering, sorting, custom authentication, and Razorpay payment integration to provide a complete shopping workflow.",
     image: "/images/myntra-image.png",
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
     demoUrl: "https://myntra-clone-aziz.vercel.app",
@@ -93,7 +134,6 @@ export const projects = [
   },
 ];
 
-
 export const skillCategories = [
   {
     title: "Frontend",
@@ -104,8 +144,7 @@ export const skillCategories = [
       { name: "Next.js", icon: Globe },
       { name: "Tailwind CSS", icon: Palette },
       { name: "Material UI", icon: Layout },
-      { name: "HTML", icon: Globe },
-      { name: "CSS", icon: Palette },
+      { name: "Shadcn UI", icon: Layout },
     ],
   },
   {
@@ -127,8 +166,6 @@ export const skillCategories = [
       { name: "Firebase", icon: Cloud },
       { name: "Postman", icon: Cpu },
       { name: "Redux / RTK", icon: Layers },
-      { name: "VS Code", icon: Terminal },
-      { name: "Shadcn UI", icon: Layout },
     ],
   },
 ];
@@ -151,3 +188,6 @@ export const experiences = [
     ],
   },
 ];
+
+
+export const downloadCV = "https://drive.google.com/file/d/1BIujE0X7gVhWPIvsMK63_eVLjImEZe35/view?usp=sharing"

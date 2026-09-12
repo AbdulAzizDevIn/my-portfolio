@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div id="experience" className="scroll-mt-24 py-16 bg-gray-100 dark:bg-gray-950">
       <SectionHeading
-        title_1="Experience &"
+        title_1=""
         title_2="Education"
         description="My professional journey and academic background"
       />

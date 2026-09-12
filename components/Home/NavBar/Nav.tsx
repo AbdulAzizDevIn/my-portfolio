@@ -2,6 +2,7 @@
 import Logo from "@/components/Helper/Logo";
 import ThemeToggler from "@/components/Helper/ThemeToggler";
 import { NavLinks } from "@/Constant/Constant.";
+import { downloadCV } from "@/data";
 import { Download, MenuIcon } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -47,7 +48,8 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex items-center space-x-4">
           {/* CV Button */}
           <a
-            href="https://drive.usercontent.google.com/uc?id=1n7H_xeyUYQ1muUo61IsF66jlqlT5bse-&export=download"
+            href={downloadCV}
+            target="_blank"
             className="hidden sm:inline-flex box-border relative z-20  items-center justify-center w-auto px-6 sm:px-8 py-3 overflow-hidden font-bold text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none"
           >
             <span className="relative z-20 flex items-center space-x-2 text-sm">

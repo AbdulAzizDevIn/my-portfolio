@@ -39,11 +39,12 @@ const About = () => {
             A passionate developer who loves to create
           </h3>
           <p className="text-muted-foreground leading-relaxed">
-            I’m a MERN stack developer specializing in building scalable web
-            applications using React.js, Node.js, Express, and MongoDB. I’ve
-            built full-stack projects like a Learning Management System with
-            secure authentication and Razorpay integration, and an e-commerce
-            platform with advanced search, filtering, and 200+ products.
+            Full-stack developer focused on React, Next.js, Node.js, and
+            MongoDB. I build and deploy complete web applications with
+            authentication, payments, database-driven features, and modern UI.
+            My recent work includes a Kanban-style Job Tracker and a Learning
+            Management System. I&apos;m particularly interested in building reliable
+            applications and solving real-world development problems.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             I focus on writing efficient code, optimizing API performance, and

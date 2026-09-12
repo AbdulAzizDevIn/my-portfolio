@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { downloadCV } from "@/data";
 import { Download, FolderOpen } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 
@@ -15,7 +16,7 @@ const Hero = () => {
         <div data-aos="fade-up" className="sm:mb-6">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-gray-600 text-sm text-muted-foreground dark:text-gray-200 mb-8">
             <span className="w-2 h-2 rounded-full bg-green-500"></span>
-            Available for opportunities
+            Open to SDE Internships & Full-Time Roles
           </span>
         </div>
         {/* title */}
@@ -72,7 +73,7 @@ const Hero = () => {
             </a>
           </Button>
           <Button asChild className="px-5 py-5 w-fit mx-auto sm:mx-0">
-            <a href="https://drive.usercontent.google.com/uc?id=1n7H_xeyUYQ1muUo61IsF66jlqlT5bse-&export=download">
+            <a href={downloadCV}>
               <Download className="w-5 h-5 mr-3" />
               Download CV
             </a>
