@@ -1,8 +1,9 @@
 import { LucideIcon } from "lucide-react";
+import type { IconType } from "react-icons";
 
 type Props = {
   name: string;
-  icon: LucideIcon;
+  icon: LucideIcon | IconType;
 };
 const SkillsCard = ({ name, icon: Icon }: Props) => {
   return (
