@@ -90,6 +90,24 @@ export const footerSocialLinks = [
 
 export const projects = [
   {
+    title: "AI Resume Analyzer",
+    description:
+      "Built an AI-powered resume analyzer that compares PDF resumes against job descriptions to generate match scores, identify missing keywords and skills, and highlight skill gaps. Implemented AI-generated recommendations and quick fixes, secure authentication with Google OAuth, and a personal dashboard with analysis statistics and history.",
+    image: "/images/ai-resume-analyzer.png",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Better Auth",
+      "Groq SDK",
+      "Tailwind CSS",
+      "shadcn/ui",
+    ],
+    demoUrl: "https://ai-resume-analyzer-aziz.vercel.app/",
+    githubUrl: "https://github.com/AbdulAzizDevIn/AI-Resume-Analyzer",
+  },
+  {
     title: "Job Tracker",
     description:
       "Built a Kanban-style job application tracker using Next.js and TypeScript, with stages for Wishlist, Applied, Interviewing, Offer, and Rejected. Implemented Better Auth, user ownership checks, MongoDB with Mongoose, and Server Actions for data mutations. Debugged a production-only database connection issue on Vercel and resolved a strict TypeScript build error.",
@@ -189,5 +207,5 @@ export const experiences = [
   },
 ];
 
-
-export const downloadCV = "https://drive.google.com/file/d/1BIujE0X7gVhWPIvsMK63_eVLjImEZe35/view?usp=sharing"
+export const downloadCV =
+  "https://drive.google.com/file/d/1g8BzucfzGF2o2DCmq0JMf5TM9MFqTeiw/view?usp=drive_link";
